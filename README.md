@@ -20,7 +20,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 
 
 **Set Attribute**
-```json
+```javascript
 {
   "set_attributes": {
     "attributeName": "some value"
@@ -29,7 +29,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Set two Attributes, Redirect to Block**
-```json
+```javascript
 {
   "set_attributes": {
     "attributeName": "some value",
@@ -42,7 +42,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Text then Redirect to Block**
-```json
+```javascript
 {
   "messages": [
     {
@@ -56,7 +56,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Text with two Quick Replies**
-```json
+```javascript
 {
   "messages": [
     {
@@ -81,7 +81,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Text with three Quick Replies**
-```json
+```javascript
 {
   "messages": [
     {
@@ -112,7 +112,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Image / Gif**
-```json
+```javascript
 {
   "messages": [
     {
@@ -128,7 +128,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Image / Gif followed by Text**
-```json
+```javascript
 {
   "messages": [
     {
@@ -147,7 +147,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Text followed by Image / Gif**
-```json
+```javascript
 {
   "messages": [
     {
@@ -166,7 +166,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Text with three Buttons**
-```json
+```javascript
 {
   "messages": [
     {
@@ -206,7 +206,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send Gallery Button with URL**
-```json
+```javascript
 {
   "messages": [
     {
@@ -230,7 +230,7 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
 ```
 
 **Send two Gallery Card with Square Image**
-```json
+```javascript
 {
  "messages": [
     {
