@@ -9,28 +9,28 @@ This is my favourite Custom Payload to use. This redirects the user to an existi
 
 If you manage multiple bots, keep the name of the Chatfuel block consistent for commonly used intents (e.g. “Hi”, “Bye”, “Stop”, “Unsubscribe”, “Help”). This allows you to reuse the Dialogflow intents across multiple Chatfuel bots.
 
-'''json
+```json
 {
   "redirect_to_blocks": [
     "Welcome message"
   ]
 }
-'''
+```
 
 Simply copy the code above and paste it into Dialogflow’s Custom Payload editor. Change the block name. Remember, block names are case sensitive.
 
 
 **Set Attribute**
-'''json
+```json
 {
   "set_attributes": {
     "attributeName": "some value"
   }
 }
-'''
+```
 
 **Set two Attributes, Redirect to Block**
-'''json
+```json
 {
   "set_attributes": {
     "attributeName": "some value",
@@ -40,10 +40,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     "Welcome message"
   ]
 }
-'''
+```
 
 **Send Text then Redirect to Block**
-'''json
+```json
 {
   "messages": [
     {
@@ -54,10 +54,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     "Welcome message"
   ]
 }
-'''
+```
 
 **Send Text with two Quick Replies**
-'''json
+```json
 {
   "messages": [
     {
@@ -79,10 +79,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
 
 **Send Text with three Quick Replies**
-'''json
+```json
 {
   "messages": [
     {
@@ -110,10 +110,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
 
 **Send Image / Gif**
-'''json
+```json
 {
   "messages": [
     {
@@ -126,10 +126,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
 
 **Send Image / Gif followed by Text**
-'''json
+```json
 {
   "messages": [
     {
@@ -145,10 +145,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
 
 **Send Text followed by Image / Gif**
-'''json
+```json
 {
   "messages": [
     {
@@ -164,10 +164,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
 
 **Send Text with three Buttons**
-'''json
+```json
 {
   "messages": [
     {
@@ -204,10 +204,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
 
 **Send Gallery Button with URL**
-'''json
+```json
 {
   "messages": [
     {
@@ -228,10 +228,10 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
 
 **Send two Gallery Card with Square Image**
-'''json
+```json
 {
  "messages": [
     {
@@ -276,4 +276,4 @@ Simply copy the code above and paste it into Dialogflow’s Custom Payload edito
     }
   ]
 }
-'''
+```
