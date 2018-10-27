@@ -1,7 +1,6 @@
 # dialogflow-custom-payload
 Cheatsheet of Custom Payload for Dialogflow and Chatfuel
 
-**Sample Payloads**
 
 **Redirect to Block**
 
