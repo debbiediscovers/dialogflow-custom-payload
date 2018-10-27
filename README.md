@@ -8,7 +8,7 @@ This is my favourite Custom Payload to use. This redirects the user to an existi
 
 If you manage multiple bots, keep the name of the Chatfuel block consistent for commonly used intents (e.g. “Hi”, “Bye”, “Stop”, “Unsubscribe”, “Help”). This allows you to reuse the Dialogflow intents across multiple Chatfuel bots.
 
-```json
+```javascript
 {
   "redirect_to_blocks": [
     "Welcome message"
